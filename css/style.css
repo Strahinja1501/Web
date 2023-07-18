@@ -1,0 +1,668 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f9f9f9;
+}
+
+.pre-header {
+    background-color: #111618;
+    height: 60px;
+    color: #fff;
+    padding-top: 15px;
+}
+
+.pre-header .secondary-menu {
+    list-style: none;
+}
+
+.pre-header .secondary-menu li {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.pre-header .secondary-menu li a {
+    color: #707374;
+    text-transform: uppercase;
+}
+
+/* STARI HEDER
+.logo-slika {
+    margin-top: 7px;
+}
+
+.main-nav .main-menu {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.main-nav .main-menu li {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.main-nav .main-menu li a {
+    color: #767676;
+    text-transform: uppercase;
+}
+STAARI HEDER */
+
+.main-cta-btn {
+    background-color: #4f33f1;
+    border: 1px solid #4f33f1;
+    padding: 10px;
+    color: #fff !important;
+    transition: 0.2s;
+}
+
+.main-cta-btn:hover {
+    color: #4f33f1 !important;;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.main-nav p {
+    margin-top: 20px;
+    color: #767676;
+    text-transform: uppercase;
+}
+ 
+.hero-section {
+    background-image: url(../images/pozadina.jpg);
+    background-size: cover;
+    padding-top: 115px;
+    padding-bottom: 115px;
+}
+
+.hero-section h1 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 65px;
+    margin-bottom: 20px;
+}
+
+.hero-section p {
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.hero-section a {
+    background-color: #4f33f1;
+    border: 1px solid #4f33f1;
+    padding: 10px;
+    color: #fff;
+    transition: 0.2s;
+    display: inline-block;
+}
+
+.service-section {
+    padding-top: 70px;
+    padding-bottom: 100px;
+}
+
+.service-section h3 {
+    text-align: center;
+    color: #4f33f1;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.service-section h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: bold;
+    color: #343434;
+}
+
+.service-section p {
+    text-align: center;
+    color: #818181;
+}
+
+.planeta {
+    padding-top: 30px;
+}
+
+.planeta h4 {
+    padding-top: 20px;
+}
+
+.service-section .planeta {
+    background-color: #1b1f20;
+    text-align: center;
+    color: #fff;
+    padding-bottom: 40px;
+    transition: 0.2s;
+    margin-top: 50px;
+}
+
+.service-section .planeta:hover {
+    background-color: #274d9d;
+    cursor: pointer;
+    scale: 1.1;
+}
+
+.service-section .planeta a {
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    border: 2px solid #fff;
+    padding: 5px;
+}
+
+.how-it-works-section {
+    /* The image used */
+    background-image: url("../images/pozadina2.jpg");
+  
+    /* Set a specific height */
+    min-height: 300px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* Pokusaj ispravke - MOJ DEO */
+    padding-top: 80px;
+}
+
+/*
+.how-it-works-section {
+    background-image: url("../images/pozadina2.jpg");
+    background-size: cover;
+    height: 300px;
+    text-align: center;
+    padding-top: 80px;
+    color: #fff;
+}
+*/
+
+.how-it-works-section h3 {
+    text-align: center;
+    color: #4f33f1;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.how-it-works-section h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.how-it-works-section p {
+    text-align: center;
+    color: #fff;
+}
+
+.rocket-section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.rocket-section h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: bold;
+    color: #343434;
+}
+
+.rocket-section p {
+    text-align: center;
+    color: #818181;
+}
+
+.rocket-section .raketa {
+    text-align: center;
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    transition: 0.2s;
+    margin-top: 50px;
+}
+
+.rocket-section .raketa:hover {
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.rocket-section .raketa h4 {
+    color: #343434;
+}
+
+.raketa img {
+    height: 280px;
+    width: 125px;
+}
+
+.raketa h4 {
+    padding-top: 20px;
+}
+
+.ispod-raketa {
+    /* The image used */
+    background-image: url("../images/pozadina2.jpg");
+  
+    /* Set a specific height */
+    height: 620px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* MOJ KOOD */
+    text-align: center;
+    color: #fff;
+    padding-top: 70px;
+}
+
+/*
+.ispod-raketa {
+    background-image: url("../images/pozadina2.jpg");
+    background-size: cover;
+    height: 620px;
+    text-align: center;
+    padding-top: 80px;
+    color: #fff;
+}
+*/
+
+.text-polje {
+    height: 300px;
+    width: 600px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.text-polje p {
+    font-size: 22px;
+    color: #f9f9f9;
+}
+
+.school-section {
+    padding-top: 120px;
+    padding-bottom: 160px;
+    text-align: center;
+}
+
+.school-section .school-inner {
+    background-image: url("../images/pozadina3.png");
+    width: 1000px;
+    margin: auto;
+    padding: 50px;
+    color: #fff;
+}
+
+.school-section .school-inner .conference-date span {
+    background-color: #2a66f7;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 2px;
+}
+
+.school-section .school-inner h4 {
+    padding-top: 16px;
+}
+
+.school-section .school-inner .countdown {
+    padding: 10px;
+    font-size: 22px;
+    display: inline-block;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 1px solid #fff;
+}
+
+.contact-section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-image: url(../images/pozadina5.jpg);
+    background-size: cover;
+    color: #fff;
+}
+
+.contact-section .contact-container {
+    margin-top: 50px;
+}
+
+.contact-section h2, .contact-section p {
+    text-align: center;
+}
+
+.contact-section .contact-details {
+    text-align: left;
+}
+
+.contact-section .contact-details p {
+    text-align: left;
+}
+
+.contact-section .contact-details p a {
+    color: #fff;
+}
+
+.contact-section .contact-details h3 {
+    margin-bottom: 30px;
+}
+
+.contact-section .contact-details h4 {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-bottom: 1px dotted #7c7586;
+    padding-bottom: 10px;
+}
+
+.contact-section .contact-details h4:before {
+    content: "";
+    display: inline-block;
+    background-color: #315df7;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+    position: relative;
+    top: -2px;
+}
+
+.contact-section form {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 50px;
+}
+
+.contact-section form textarea, .contact-section form input,  .contact-section form button {
+    width: 100%;
+    border: 0;
+    outline: none;
+    margin-bottom: 15px;
+    height: 40px;
+}
+
+.contact-section form textarea {
+    height: 80px;
+    resize: none;
+}
+
+.contact-section form button {
+    background-color: #1a7dfa;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0;
+    width: 252px;
+}
+
+.contact-section form label {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.7);
+}
+/* POCETAK */
+
+.pricing-section {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.pricing-section h3 {
+    text-align: center;
+    color: #4c007b;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.pricing-section h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 36px;
+    color: #343434;
+    font-weight: bold;
+}
+
+.pricing-section p {
+    text-align: center;
+    color: #818181;
+}
+
+.pricing-section .pricing-plan {
+    background-color: #1c2021;
+    color: #fff;
+    padding: 25px;
+    margin-top: 50px;
+    transition: 0.2s;
+}
+
+.pricing-section .pricing-plan:hover {
+    background-color: #4d4d4d;
+    cursor: pointer;
+    scale: 1.1;
+}
+
+.pricing-section .pricing-plan a {
+    display: inline-block;
+}
+
+.pricing-section .pricing-plan ul {
+    list-style: none;
+}
+
+.pricing-section .pricing-plan ul li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #fff;
+}
+
+.pricing-section .pricing-plan .price {
+    position: relative;
+    border-top: 2px dotted #fff;
+    border-bottom: 2px dotted #fff;
+    margin-bottom: 20px;
+}
+
+.pricing-section .pricing-plan .price .main-num{
+    font-size: 60px;
+    font-style: italic;
+}
+
+.pricing-section .pricing-plan .price .sec-num{
+    position: relative;
+    top: -30px;
+}
+
+.pricing-section .pricing-plan .price .month {
+    position: relative;
+    left: -25px;
+}
+
+.main-cta-btn2 {
+    background-color: #4f33f1;
+    border: 1px solid #4f33f1;
+    padding: 10px;
+    color: #fff !important;
+    transition: 0.2s;
+}
+
+.main-cta-btn2:hover {
+    color: #fff !important;;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+/* KRAJ */
+.profit-section {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-image: url(../images/pozadina4.jpg);
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+
+.profit-section h2 {
+    font-size: 60px;
+    text-transform: none;
+}
+
+.profit-section p {
+    font-size: 20px;
+}
+
+.profit-section a {
+    border: 2px solid #fff;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 15px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+footer {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+footer h4 {
+    border-bottom: 1px dotted grey;
+    color: #343434;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+footer h4::before{
+    content: "";
+    display: inline-block;
+    background-color: #315df7;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+    position: relative;
+    top: -2px;
+}
+
+footer ul {
+    list-style: none;
+    margin-top: 5px;
+}
+
+footer ul li a {
+    color: #818181;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+footer .icons a i {
+    margin-right: 5px;
+    color: #818181;
+}
+
+footer .icons a i {
+    font-size: 28px;
+}
+
+.after-footer {
+    background-color: #111618;
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+
+.after-footer ul {
+    list-style: none;
+    margin: 0;
+}
+
+.after-footer ul li {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.after-footer ul li a {
+    color: #bfc0c0;
+    text-transform: uppercase;
+}
+
+.after-footer p {
+    color: #fff;
+}
+
+.after-footer ul li a::before {
+    content: "";
+    display: inline-block;
+    background-color: #315df7;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+    position: relative;
+    top: -2px;
+}
+
+
+
+
+
+/* Style the header */
+.myheader {
+    background: #fff;
+    color: #f1f1f1;
+    z-index:1;
+  }
+  
+  /* Page content */
+  .content {
+    padding: 16px;
+  }
+  
+  /* The sticky class is added to the header with JS when it reaches its scroll position */
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+    padding-top: 102px;
+  }
+
+.logo-slika {
+    margin-top: 7px;
+}
+
+.myheader .main-menu {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.myheader .main-menu li {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.myheader .main-menu li a {
+    color: #767676;
+    text-transform: uppercase;
+}
+
+.main-cta-btn:hover {
+    color: #4f33f1 !important;;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.myheader p {
+    margin-top: 20px;
+    color: #767676;
+    text-transform: uppercase;
+}
